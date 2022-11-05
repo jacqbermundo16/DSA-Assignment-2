@@ -78,9 +78,9 @@ def menu():
 
 #delete an element
     elif num == 4:
-        askIndex = int(input('Input the index of the number that you want to delete (0-9): '))
-        index = askIndex
-        list.remove(index)
+        askInput = int(input('Insert the number you want to delete: ' ))
+        numInput = askInput
+        list.remove(numInput)
         print("The number has been deleted from the list.")
         print(f'This is the New Array: Array: {list}')
 
